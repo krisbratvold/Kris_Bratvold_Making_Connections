@@ -1,0 +1,141 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-right: 20%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    background-color:teal;
+    color: white;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px 20px 200px;
+}
+.id{
+    height:300px;
+    width:450px;
+    border: solid 1px black;
+    margin:0px 30px 30px 0px;
+}
+.education{
+    height:200px;
+    width:450px;
+    border: solid 1px black;
+}
+.request{
+    height: 200px;
+    width:275px;
+    border: solid 1px black;
+    margin:0px 0px 30px 0px;
+}
+.connection{
+    height: 325px;
+    width:275px;
+    border: solid 1px black;
+}
+.top{
+    background-color: cadetblue;
+    height: 75px;
+    width: 100%;
+}
+.user{
+    position: relative;
+    top:20px;
+    left:20px;
+    border-radius: 50%;
+}
+.main{
+    padding:30px;
+    margin-top: 20px;
+}
+.map{
+    display: flex;
+    align-items: center;
+}
+.place{
+    margin:5px;
+}
+.edit{
+    margin-top: 10px;
+}
+.greybar{
+    height:50px;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.greybar p{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.education-text{
+    margin: 20px 0px 0px 20px; 
+}
+.education-text p{
+    margin-top: 10px;
+}
+.education-text h3{
+    color: grey;
+}
+.request img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.person{
+    align-items: center;
+    padding:10px;
+    font-weight: bold;
+    justify-content: flex-start;
+    display: flex;
+}
+.connection img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.end{
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 1.3rem;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+span{
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    border:10px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input{
+    display: none;
+}
