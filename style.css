@@ -139,3 +139,6 @@ span{
 input{
     display: none;
 }
+.edit button{
+    display: none;
+}

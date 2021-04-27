@@ -21,8 +21,13 @@ function remove2(){
 
 function showbox(){
     nameEdit.style.display = "inline-block";
+    done.style.display = "inline-block"; 
 }
 
 function editName(){
     userName.innerHTML=nameEdit.value;
+}
+function hideBox(){
+    nameEdit.style.display = "none";
+    done.style.display = "none"; 
 }
